@@ -2,41 +2,11 @@ package sota.tek.trimstring;
 
 public class TrimString {
     public static void main(String[] args) {
-        String priKey = "MIIEpAIBAAKCAQEAwRvqfdxSIsdVkA/cLAYIl0egq/gq8izJSWoLqwdQVBriFPa0\n" +
-                "Tj+tF5OV36M00s83QL+Vx/2gYCyUTHgZe6t1O0k9bCAfBZnPcmtteNslwX08e3MI\n" +
-                "oUu6fUmd3GZROhflqYJAPSTsOvEOqaTH2r30UcKtkmEVIUZukDqCpd5iX1kl1sYO\n" +
-                "LfgkqfFB7OMClu4HIUKCrdoVE9qkA5Xj0cPQ2xuqsftMKmoD0bqn74BdA/fVWZow\n" +
-                "iNX+Ua2KxQGq1vsW/bsYYf9vRISghfUIwgQupT9It9IyvcEAaz/JfCphpFImtDX1\n" +
-                "pCvczmzVKfeTipm2HVNOA9Xx54Gt4uPdGyHKcQIDAQABAoIBAQCf6z9g5ZD7jjoU\n" +
-                "aJ37sy9wIHg1kfn2vhIfgvuQsijazbyGgdvFpUPx713Ba0X2gnYOX9ppWWdz3dce\n" +
-                "EKOB3/bglwGPxnYKTFsYNVDeMhXtS4pH7XarJKyWzt01RWJlCp89pkkOmcIr+a8b\n" +
-                "3ANJ6d8nymG1hEJcYRh0xo+lTyoGLLm/i8ybYc31Ch3nGACwNJsz7IcYOyOED9lM\n" +
-                "LWEoPXqJd0ADVcsP57jpheWRQ4eDoPxcb8Z8lAetTaIH/ZnRdg1omqhufUrMpLds\n" +
-                "Or+JhQkIl/3mx60oAhB+JlNl+K5ExusYfRPoz/IL6M84W6k3CtY5JetwhOcVtS+n\n" +
-                "ApsNY3zlAoGBAPnNw30ZdQQxB2VPJ0i4n8YFrYP5TkClE0Uw/uIKbx5p3OFzf9mU\n" +
-                "rtlU40W3UsVmJPXebaNh28twkkI8ghzyBbUb9ygmPnrk5i/88YFjIcC/Jc6mzl2q\n" +
-                "lGhFC1Am7q178B+vUQi1vuXNKR+o1OyW4IjXd3wiN2JO4IHwOz2AWCZ/AoGBAMXm\n" +
-                "JRbFLA+RVSEClyNcWWEqfRlcj5Xtn7CwXGN2bHY413XVHMhJnZi8BmkiNz1F6Gt3\n" +
-                "lqru3NvEIkqC59+/EEiNxXY4h1dQvUh18oGx6Jd3QdFt3A4YHdBeb5j+/Tj+JZ+b\n" +
-                "1YN3gjqyoTwm8IEQCK3I5LCGrkZXB8uh+GP7rfcPAoGAYq3++I8y44n+su2Wxipw\n" +
-                "q0gY6FZ2rCDJwP5+4YpfpPMK12DJ84jBnYbkFOk7YFFebmYEh5MjwXThwhqnB4ov\n" +
-                "6QB4HTsmWWPM7s4MFSG09rBL3huUz/mPkLUdp/cJOC0KiWm3KCqrk5n9Ec2e9ysO\n" +
-                "3d/ICph1qncgRxRAQqZNrD8CgYEAhYdwZxjLTgXF5uwUhqt9M26z0jT+PS+EnHej\n" +
-                "Hwl8zZg06TDOpuXlDHVx7eZEV3egB0M9ykA5jZ+dc6E4S2Rj3FCsd8RUrbmwvf+3\n" +
-                "jYM5aVnycxkpbekf1MSjkBwdSCNTx4oiWv58RJba6/dqN+tVr8zpYaK+XH/EpsW3\n" +
-                "D9911kkCgYAbLq/zTvmGkewaRROr58YCXVUY5zPBgrjiN63h+RDE1KjKRmzR7QqA\n" +
-                "2JwYuOYk9b4S/m02U4ztaiJTDmbJlpFJ1yWk8p9dVKJE9/8KwDDBrGFf/OGe4TdZ\n" +
-                "Mc3qFk19GMAhaO9x3S5Vma+6RI7iWnl5e+JyljjndT5uPf20nxWpEA==";
-        String pubKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwRvqfdxSIsdVkA/cLAYI\n" +
-                "l0egq/gq8izJSWoLqwdQVBriFPa0Tj+tF5OV36M00s83QL+Vx/2gYCyUTHgZe6t1\n" +
-                "O0k9bCAfBZnPcmtteNslwX08e3MIoUu6fUmd3GZROhflqYJAPSTsOvEOqaTH2r30\n" +
-                "UcKtkmEVIUZukDqCpd5iX1kl1sYOLfgkqfFB7OMClu4HIUKCrdoVE9qkA5Xj0cPQ\n" +
-                "2xuqsftMKmoD0bqn74BdA/fVWZowiNX+Ua2KxQGq1vsW/bsYYf9vRISghfUIwgQu\n" +
-                "pT9It9IyvcEAaz/JfCphpFImtDX1pCvczmzVKfeTipm2HVNOA9Xx54Gt4uPdGyHK\n" +
-                "cQIDAQAB";
+        String priKey = "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5nHGCKufUhouCrZeWMPurheCVUrCVM8kdW0Y/vLQv3DsolO8hclBl/uHyHk2gjYXIHmR86ROkNS6B2Bm/wU4jCuRfheN2Xznwp7TQ9mrrS/6x1tLhs5F724OFSsF2jR+SEzrZsXyyZpu5pvgEap3mdxsZIQYzWORfZ4Cik0eTzE5PfC48LyIYKgpZWmLHu/zGAum8XrySIrziD9afBB67sXewTsE+MXho++6hqh4MQR39sm2eP3mXWsnYA61eoDmNuMOF0lIA/jevt0Nla+1FEtq/NBeMFwIlsJrZqn3dQh/mNWOyBOJCHFkJL4pu/wOBn3X0viDZgX4fhc0aVVi1AgMBAAECggEBALEwMn/Du8p7ooTeeL5NBoPIawvBg4b7h7s5ngdMemrR/7uO6fVw7mVf+4wp94sUbykKMn239yMkDcCwbmxK+e+j/z1dUDZ5U5N0Vb3B73Gt+3cEEA6cYH7voE9HfQZSVFgbeWvF7rdUEscZKNz2dsRC4aCMkSHFc0XMRdVtacAhgbOAdd0Mcpkq7IL3KFVBjDbGb8IR6cT/O2c2+WwHuspZm84dBmAT8U5TCQWtt/ZsKvBBoHmS1NcUM5TiD3UoV/Mc4UjG/uEIxvdlD3pFFgo/suurlQAzzR+yLuYvLeNig1EanuRa3N9zeAJt8FlGqwpWOJUCX9tqQFD41kOF40UCgYEA5kvMRhmlsCqT5hrRnE70OL6YDOlfrnQkHZ22NMwvViQDbMRYi4NAqbfAqTjejNnMdwgLLnHlsl1ZBiwjGmyXIQ4U1Wrdzsiwg8xugE//2nSk4mS8Sdn9uFDHUGIfeB++bTndygwRdXS42R1LOdCvVRUF1Ziw57RlQPkwOC0GB2sCgYEAzlPe8P7upZClRUMXAwFcBDzDv4t1mwmiKRVoFguKNK3W/lcg8HiB/E2oj0K82rDQ+99Yn1sl8dsqTMLaxkCpZxTJKyt03jC9Mrb9VC8vt5Ftk50vF5uuIhTHteTANEh29xpsDShr3DkIQMnPkvisDM+9t5JkVfC60hKYLyonyF8CgYADOAP+5tTeBXpTuQQ8/w2CzYcqhwiDU7Q9hbrKOiBfP9mcZ5IlQQxiUuMqelUB+vlUoJQnbggb2hoob+19rQ7fs2avJPM8tKli7jSNLpEQ6Jh1YZsQHS/ip55hjT2LXEY5GJn0/P4xehQrVLF8eWI5+jU+qwet9WOE6Pa3kkmHSQKBgHH8Z9ggHtuc85E2JUplv94fa80wUIKcadfkmaJEMdA0keflXq87BCTNCmhK6Gaw9GOR2jX/dxEMkWvi4lZQdsYZ96E/2sq9hmi0K3QMtYHmd/DrD48tVKBDdqmIfJ7lwcN192e1gxEg+OxCEckSVIqnYho+Z+wKmEtiNm0oDt5lAoGAbGauRDheJEFoaDJNopq+FaoKobdBtzsBt+/XufNZnFMQEWOlt5Th5a9HdvBW1yFJ2pd4hGBxDM3gisLNZ4Ll9Mv266aQrlzD6i5/aXPGdLLRg1KU9FWpRTzy/K8WK2ia3D+ZEdupvH3Khw1bvtYlS2EvWrHdrji7231ibB+V7gE=";
+        String aes = "QITLRAs7Cu0nizoAxqbT jbvWd6QQGOOSHVgv0CG103hC6kwHmYcQ2bS+ZPA3KWwyNRmtCAACp1blHSTi2lKsB9aZBozRvytp URfYzDL1PRzRCYkCre/aoYiUTgJ8zwhxB2mpMAeRx/1i2ejmU42VNuq7x/iLIaxCp0Voq30C8 PnY7u5DoXMCvQgbUbCioc0BfdU4jvX8wCxmN5xHC4gShxfgfHFfxmlg1S0K38JNJcbZlpxDlQLg4 GryI6cicp7rlGBp1YfAdIbz/YT6Emd4G62aXCh6vyQYwTzGnHm1IayE1tw+PPWXXpr4xVNndzGo G0LufL0wKCn7WDKBAzdugg==";
 
-        System.out.println("priKey: " + priKey.replaceAll("\n", ""));
-        System.out.println("pubKey: " + pubKey.replaceAll("\n", ""));
+        System.out.println("priKey: " + priKey.replaceAll("\n", "").replaceAll("_", "").replaceAll(" ", ""));
+        System.out.println("pubKey: " + aes.replaceAll("\n", "").replaceAll("_", "").replaceAll(" ", ""));
 
 
     }
